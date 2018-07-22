@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+
+[dev-packages]
+"flake8" = "*"
+"flake8-import-order" = "*"
+"Flask-Testing" = "*"
+"pytest" = "*"
+"pytest-cov" = "*"
+
+
+[requires]
+python_version = "3.6"
+
+[scripts]
+lint = "python -m flake8"
+test = "py.test tests --cov app --cov-report term-missing -v"

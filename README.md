@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/inveracity/ci-reference.svg?branch=master)](https://travis-ci.org/inveracity/ci-reference)
+[![Build Status](https://travis-ci.org/Inveracity/ci-reference.svg?branch=master)](https://travis-ci.org/Inveracity/ci-reference)
 
 # CI Reference Project
 
